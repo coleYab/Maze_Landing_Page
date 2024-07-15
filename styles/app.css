@@ -38,7 +38,6 @@ nav ul li a {
     text-align: center;
     padding: 50px 20px;
     background-color: #f4f4f4;
-    background: url("../images/maze_look.png");
     height: calc(100vh - 60px);
     color: white;
     margin-top: 0;
