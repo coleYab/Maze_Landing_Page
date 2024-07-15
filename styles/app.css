@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+    margin-bottom: 0%;
+    align-self: flex-start;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#intro {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    background: url(/images/maze_look.png);
+    height: calc(100vh - 60px);
+    color: white;
+    margin-top: 0;
+}
+
+button {
+    background-color:  rgb(240, 231, 231);
+    width: 130px;
+    height: 40px;
+    border: #f4f4f4 1px solid;
+    border-radius: 20px;
+}
+
+section div {
+    height: 100vh;
+    margin: 20px 0;
+}
+
+button:hover {
+    background-color: rgba(240, 231, 231, 0.9);
+    cursor: pointer;
+}
+
+.cover-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.intro-text h1 {
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.intro-text p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#features {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+#features h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.feature {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.feature img {
+    height: 50vh;
+}
+
+.feature h3 {
+    font-size: 40px;
+}
+
+.feature p {
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+#about {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+#about h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.developer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.developer ul li {
+    margin: 0 15px;
+    text-align: center;
+}
+
+.github-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+    text-decoration: none;
+}
+
+#video {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#video h2 {
+    margin-bottom: 20px;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+
